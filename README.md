@@ -144,17 +144,17 @@ De los grupos resultantes analice dos variables principales:
 Y a partir de un analisis grafico de los datos, realice las siguientes observaciones.
 
 ![cursadas_ap_1er_anio cluster 0](code/punto5/cursadas_ap_1er_anio_cluster_0.png)
-![fracaso academico cluster 0](code\punto5\fracaso_academico_cluster_0.png)
+![fracaso academico cluster 0](code/punto5/fracaso_academico_cluster_0.png)
 
 - Se puede observar que: se encuentran aquellos estudiantes que mayormente, no cursaron materias el primer 1er año y fracasaron academicamente. 
 
 ![cursadas_ap_1er_anio cluster 1](code/punto5/cursadas_ap_1er_anio_cluster_1.png)
-![fracaso academico cluster 1](code\punto5\fracaso_academico_cluster_1.png)
+![fracaso academico cluster 1](code/punto5/fracaso_academico_cluster_1.png)
 
 - El segundo grupo: hay estudiantes que cursaron en promedio 2 materias y ninguno fracaso academicamente. 
 
 ![cursadas_ap_1er_anio cluster 2](code/punto5/cursadas_ap_1er_anio_cluster_2.png)
-![fracaso academico cluster 2](code\punto5\fracaso_academico_cluster_2.png)
+![fracaso academico cluster 2](code/punto5/fracaso_academico_cluster_2.png)
 
 
 - Por ultimo, este cluster es parecido al cluster 0, con la diferencia que tenemos estudiantes que no fracasaron academicamente a pesar de que, en su mayoria no cursaron materias el primer año.
@@ -185,6 +185,10 @@ Dependiente del tipo de agrupamiento utilizado, se puede obtener un mejor agrupa
 * a) Realice el agrupamiento de los datos utilizando diferentes parámetros.
 
 * b) Grafique el resultado y escoja cual es el nivel que mejor agrupa los datos.
+
+![dendrograma average](code/punto6/dendograma-average.png)
+![dendrograma centroid](code/punto6/dendograma-centroid.png)
+![dendrograma single](code/punto6/dendograma-single.png)
 
 
 
