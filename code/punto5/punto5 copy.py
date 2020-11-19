@@ -163,7 +163,9 @@ scaled_1 = scale(x)
 from scipy.cluster.hierarchy import dendrogram, linkage
 
 # H = linkage(scaled_1, 'single')
-H = linkage(scaled_1, 'single')
+# H = linkage(scaled_1, 'average')
+# H = linkage(scaled_1, 'centroid')
+H = linkage(scaled_1, 'complete')
 
 from scipy.spatial.distance import pdist, squareform
 

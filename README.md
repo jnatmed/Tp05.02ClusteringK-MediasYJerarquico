@@ -184,12 +184,47 @@ Dependiente del tipo de agrupamiento utilizado, se puede obtener un mejor agrupa
 
 * a) Realice el agrupamiento de los datos utilizando diferentes parámetros.
 
+Variando el parametro del tipo de linkage se pueden realizar dintintos agrupamientos: Como ser `single`, `average`, `centroid` y `complete`
+
+```
+from scipy.cluster.hierarchy import dendrogram, linkage
+
+# H = linkage(scaled_1, 'single')
+# H = linkage(scaled_1, 'average')
+# H = linkage(scaled_1, 'centroid')
+H = linkage(scaled_1, 'complete')
+
+from scipy.spatial.distance import pdist, squareform
+
+squareform(pdist(scaled_1))
+
+max_d = 7.08
+plt.figure(figsize=(25, 10))
+plt.title('Dendrograma')
+plt.xlabel('Observaciones')
+plt.ylabel('Distancia')
+dendrogram(
+    H, truncate_mode='mlab',
+    p=5, leaf_rotation=90.,
+    leaf_font_size=8.,
+)
+plt.axhline(y=max_d, c='k')
+plt.show()
+
+```
+
 * b) Grafique el resultado y escoja cual es el nivel que mejor agrupa los datos.
 
+#### Dendograma `AVERAGE`
 ![dendrograma average](code/punto6/dendograma-average.png)
+#### Dendograma `CENTROID`
 ![dendrograma centroid](code/punto6/dendograma-centroid.png)
+#### Dendograma `SINGLE`
 ![dendrograma single](code/punto6/dendograma-single.png)
+#### Dendograma `COMPLETE`
+![algoritmo jerarquico](code/punto5/dendograma.png)
 
+Se puede observar que el dendograma `Complete` es el que mejor agrupa los datos.
 
 
 
