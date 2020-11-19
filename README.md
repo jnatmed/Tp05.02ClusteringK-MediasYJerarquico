@@ -175,10 +175,11 @@ Segun la metrica de silueta se puede observar que tres cluster logran el mejor a
 ![algoritmo jerarquico](code/punto5/dendograma.png)
 
 Se puede observar que, a una distancia aproximada de 7 corresponde una agrupancion de k=4. 
+A una distancia aproximada de 8 se corresponde con el agrupamiento realizado por k-medias en el punto 6) a).
 
 * e) ¿El agrupamiento jerárquico permite encontrar una mejor forma de agrupar los datos? Si fuera así, ¿Cuál es ese agrupamiento?
 
-Dependiente del tipo de agrupamiento utilizado, se puede obtener un mejor agrupamiento, en el caso anterior se uso un metodo de linkage de Complete Linkage, lo que permitio observar un agrupamiento mas uniforme.
+Dependiente del tipo de agrupamiento utilizado, se puede obtener un mejor agrupamiento, en el caso anterior se uso un metodo de linkage de `Complete Linkage`, lo que permitio observar un agrupamiento mas uniforme.
 
 ## 6. Algoritmos jerárquicos. Incorpore en Colab nuevamente el dataset del punto 5 y realice las siguientes actividades:
 
