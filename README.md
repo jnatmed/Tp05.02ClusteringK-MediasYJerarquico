@@ -1,4 +1,5 @@
-# Tp05.01ArbolesDeDecision
+# TRABAJO PRÁCTICO V: Minería de datos
+# PARTE 02: Clustering (K-Medias y algoritmos jerárquicos)
 
 ## 1. Medidas de distancia. Calcule la distancia entre los siguientes puntos y el centroide (2, 4) utilizando las medidas: euclídea, Manhattan y Minkowski (con p = 3):
 
